@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-f = open('authdata.txt', r)
+f = open('authdata.txt', 'r')
 authdata = f.readlines()
 
 url1 = 'https://epp.hostmaster.ua/'
